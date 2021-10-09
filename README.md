@@ -59,13 +59,19 @@ user_social_network:
 
 ## Analysis Results
 
-### Common words found in tweets
+### 1. Common words found in tweets
 ![Schema](https://github.com/olliechan92/minions/blob/main/Charts_and_images/counter.jpg?raw=true)  
 
-### Sentiment analysis - Word cloud
-![Schema](https://github.com/olliechan92/minions/blob/main/Charts_and_images/wordcloud.jpg?raw=true)  
 
-### Sentiment analysis - Polarity
+### 2. Sentiment analysis - Word cloud
+![Schema](https://github.com/olliechan92/minions/blob/main/Charts_and_images/wordcloud.jpg?raw=true)  
+- After pre-processing Joe Biden’s tweets by removing stop words and url links, word cloud (on the right) was created using python in Jupyter notebook.
+- The size of each word indicates its frequency in his tweets. The bigger the word, the higher the frequency count. Other than the two search keywords “vaccinated” and “covid-19”, the most frequently appearing words are “get”, and “vaccine”.
+
+### 3. Sentiment analysis - Polarity
 ![Schema](https://github.com/olliechan92/minions/blob/main/Charts_and_images/polarity.jpg?raw=true)  
+- Using the python module “Textblob”, we calculated the polarity score of his tweets with a range of -1 to 1. Values closer to 1 indicate more positivity, while values closer to -1 indicate more negativity.
+- We then categorized all polarity scores into 3 buckets with a positive tweet having a polarity score > 0, neutral tweet having a score of 0 and negative tweet having a score of < 0
+- From the pie chart on the left, we can observe that Joe Biden’s tweets are largely positive at 58%, hence, we can conclude his sentiments about vaccination for covid-19 are more positive.
 
 ## Contributors
