@@ -8,7 +8,7 @@ An article by New York Times wrote:
 
 - [Project Overview](#project-overview)
 - [Code and Resources Used](#code-and-resources-used)
-- [Data Crawled](#data-crawled)
+- [Database Schema](#database-schema)
 - [Data Cleaning](#data-cleaning)
 - [Analysis Results](#analysis-results)
 - [Contributors](#contributors)
