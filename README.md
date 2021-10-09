@@ -6,8 +6,8 @@ An article by New York Times wrote:
 
 ## Table of Contents
 
-- Project Overview
-- Code and Resources Used
+- [Project Overview](## Project Overview)
+- [Code and Resources Used](## Code and Resources Used)
 - Data Crawled
 - Data Cleaning
 - Analysis Results
