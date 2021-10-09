@@ -6,12 +6,12 @@ An article by New York Times wrote:
 
 ## Table of Contents
 
-- [Project Overview](## Project Overview)
-- [Code and Resources Used](## Code and Resources Used)
-- Data Crawled
-- Data Cleaning
-- Analysis Results
-- Contributors
+- [Project Overview](#project-overview)
+- [Code and Resources Used](#code-and-resources-used)
+- [Data Crawled](#data-crawled)
+- [Data Cleaning](#data-cleaning)
+- [Analysis Results](#analysis-results)
+- [Contributors](#contributors)
 
 ## Project Overview
 
