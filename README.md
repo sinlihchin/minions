@@ -60,9 +60,12 @@ user_social_network:
 ## Analysis Results
 
 ### Common words found in tweets
+![Schema](https://github.com/olliechan92/minions/blob/main/Charts_and_images/counter.jpg?raw=true)  
 
 ### Sentiment analysis - Word cloud
+![Schema](https://github.com/olliechan92/minions/blob/main/Charts_and_images/wordcloud.jpg?raw=true)  
 
 ### Sentiment analysis - Polarity
+![Schema](https://github.com/olliechan92/minions/blob/main/Charts_and_images/polarity.jpg?raw=true)  
 
 ## Contributors
