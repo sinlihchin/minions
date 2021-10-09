@@ -75,5 +75,5 @@ user_social_network:
 - From the pie chart on the left, we can observe that Joe Biden’s tweets are largely positive at 58%, hence, we can conclude his sentiments about vaccination for covid-19 are more positive.
 
 ## Contributors
-![Schema](https://github.com/olliechan92/minions/blob/main/Charts_and_images/minion.jpg?raw=true)  
+![Minion](https://github.com/olliechan92/minions/blob/main/Charts_and_images/minion_out.jpg?raw=true)  
 Done by Team Yellow Minions
