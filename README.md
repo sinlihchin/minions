@@ -26,7 +26,7 @@ An article by New York Times wrote:
 
 ## Database Schema  
 
-![Schema](https://github.com/olliechan92/minions/Charts_and_images/schema.jpg?raw=true)  
+![Schema](https://github.com/olliechan92/minions/blob/main/Charts_and_images/schema.jpg?raw=true)  
 The data crawled will be loaded into 3 tables and stored in a PostGreSQL database namely:
 
 user_info:  
