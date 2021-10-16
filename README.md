@@ -11,6 +11,7 @@ An article by New York Times wrote:
 - [Database Schema](#database-schema)
 - [Data Cleaning](#data-cleaning)
 - [Analysis Results](#analysis-results)
+- [Limitations](#limitations)
 - [Contributors](#contributors)
 
 ## Project Overview
@@ -22,7 +23,8 @@ An article by New York Times wrote:
 ## Code and Resources Used
 
 **Python Version:** 3.9  
-**Packages:** Tweepy, Pandas, Time, RE, Sqlalchemy, Matplotlib, NLTK, Wordcloud, Numpy, Pillow, Itertools, Collections, Textblob, Datetime, Decimal
+**Packages:** Tweepy, Pandas, Time, RE, Sqlalchemy, Matplotlib, NLTK, Wordcloud, Numpy, Pillow, Itertools, Collections, Textblob, Datetime, Decimal  
+**Dataset:** Utilized [Our World In Data's COVID Deaths dataset](https://ourworldindata.org/covid-deaths) to observe Biden's tweets impact
 
 ## Database Schema  
 
@@ -74,6 +76,30 @@ user_social_network:
 - We then categorized all polarity scores into 3 buckets with a positive tweet having a polarity score > 0, neutral tweet having a score of 0 and negative tweet having a score of < 0
 - From the pie chart on the left, we can observe that Joe Biden’s tweets are largely positive at 58%, hence, we can conclude his sentiments about vaccination for covid-19 are more positive.
 
+### 4. Impact of President Joe Biden's tweets on vaccination rate
+![Tweet's impact on vaccination rate](https://github.com/olliechan92/minions/blob/main/Charts_and_images/tweets_impact.jpg?raw=true)  
+*Red lines indicate when the President tweeted about vaccination*  
+- From the previous observations we know that Joe Biden's sentiment towards getting vaccinated is positive and he also has a high level of influence on Twitter as compared to Boris Johnson on the same issue. 
+- The assumption then is that Joe Biden's tweets should have a positive and powerful impact on Covid-19's vaccination rate in USA.
+- However, as shown in the below graph of Joe Biden's tweet date vs number of new vaccinations, there is no obvious trend to support our assumption. It is therefore inconclusive. 
+
+## Limitations
+
+- Limited number of tweets pulled due to twitter constraints (7 days limitation)
+- Popularity score and reach score might not be a sufficient influence indicator of JoeBiden. Better indicator would be klout whereby it takes all his social media presence into account
+- To better measure the impact of Biden's tweet on vaccination rate, we would need to execute specific statistical analysis such as time series which will take longer than 2 weeks to complete.
+- Textblob may not be sophisticated enough to properly determine if a statement is truly "positive" or "negative"​
+- Accuracy of analysis may not be good enough as usually large amount of data is needed
+
 ## Contributors
+
+Hello there! We are a group of mid-career switchers undergoing a 3 months bootcamp in Business Intelligence and Data Analytics. This is our 2 weeks interim project where we showcased what we have learnt and brainstormed a solution to a given problem.
+
+By Team Yellow Minions  
+- [Alaric Tan](https://www.linkedin.com/in/alaric-tan-37b9a2143/)
+- [Chloe Li](https://www.linkedin.com/in/chloelihuimin/)
+- [Gao Shuai](https://www.linkedin.com/in/gao-shuai/)
+- [Olivia Chan](https://www.linkedin.com/in/olivia-chan-90986a175/)
+- [Sin Lih Chin](https://www.linkedin.com/in/sinlih-chin/)
+
 ![Minion](https://github.com/olliechan92/minions/blob/main/Charts_and_images/minion_out.jpg?raw=true)  
-Done by Team Yellow Minions
